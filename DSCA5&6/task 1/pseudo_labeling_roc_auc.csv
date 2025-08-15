@@ -1,0 +1,5 @@
+Model,Stage,Macro AUC
+Pseudo-Labeling Logistic Regression,Iteration 1,0.7274045892828602
+Pseudo-Labeling Logistic Regression,Iteration 2,0.7275125005919781
+Pseudo-Labeling Logistic Regression,Iteration 3,0.7269766580302515
+Pseudo-Labeling Logistic Regression,Final,0.7269766580302515

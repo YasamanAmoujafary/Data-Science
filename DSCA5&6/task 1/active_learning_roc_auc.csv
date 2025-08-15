@@ -1,0 +1,7 @@
+Model,Stage,Macro AUC
+Active Learning Logistic Regression,Round 1,0.7344165794610048
+Active Learning Logistic Regression,Round 2,0.7308223551664086
+Active Learning Logistic Regression,Round 3,0.7297913050371996
+Active Learning Logistic Regression,Round 4,0.7355519842684051
+Active Learning Logistic Regression,Round 5,0.7418570789862754
+Active Learning Logistic Regression,Final,0.7418570789862754
