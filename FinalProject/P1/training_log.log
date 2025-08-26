@@ -1,0 +1,80 @@
+2025-04-29 15:42:34,748 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-29 15:42:36,030 - INFO - Successfully loaded metadata from DogImages.db
+2025-04-29 15:42:36,030 - INFO - Data loaded from DogImages.db with 2000 records
+2025-04-29 15:42:36,047 - INFO - Raw data saved to raw_data.csv
+2025-04-29 15:42:36,799 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-29 15:42:36,809 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-04-29 15:42:39,396 - INFO - Successfully loaded metadata from DogImages.db
+2025-04-29 15:42:39,396 - INFO - Data loaded from DogImages.db with 2000 records
+2025-04-29 15:42:39,409 - INFO - Raw data saved to raw_data.csv
+2025-04-29 15:42:39,466 - INFO - Missing images: 0
+2025-04-29 15:42:39,466 - INFO - Breed classes: ['Dalmatian', 'Golden Retriever', 'Pug', 'Rottweiler']
+2025-04-29 15:42:39,495 - INFO - Dataset splits saved to dataset_splits.csv
+2025-04-29 15:42:39,501 - INFO - Dataset prepared:
+Training set: 1400 samples
+Validation set: 300 samples
+Test set: 300 samples
+2025-04-29 15:42:40,160 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-04-29 15:42:40,160 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
+2025-04-29 15:42:53,651 - INFO - Data augmentation configured and saved to augmentation_config.txt
+2025-04-29 15:42:55,255 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
+2025-04-30 08:32:17,420 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-30 08:32:18,696 - ERROR - Failed to connect to database DogImages.db: Execution failed on sql 'SELECT Breed, Image_File_Path FROM DogImages': no such table: DogImages
+2025-04-30 08:32:18,696 - ERROR - Failed to load data from DogImages.db: Execution failed on sql 'SELECT Breed, Image_File_Path FROM DogImages': no such table: DogImages
+2025-04-30 08:32:33,219 - ERROR - Failed to execute D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py: Command '['c:\\Users\\manam\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\university\\sem 8\\Data\\Final Project\\Project_P2_810100207_810100247_810102480\\scripts\\load_data.py']' returned non-zero exit status 1.
+2025-04-30 08:32:46,468 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-30 08:32:47,774 - ERROR - Failed to connect to database DogImages.db: Execution failed on sql 'SELECT Breed, Image_File_Path FROM DogImages': no such table: DogImages
+2025-04-30 08:32:47,774 - ERROR - Failed to load data from DogImages.db: Execution failed on sql 'SELECT Breed, Image_File_Path FROM DogImages': no such table: DogImages
+2025-04-30 08:33:02,298 - ERROR - Failed to execute D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py: Command '['c:\\Users\\manam\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\university\\sem 8\\Data\\Final Project\\Project_P2_810100207_810100247_810102480\\scripts\\load_data.py']' returned non-zero exit status 1.
+2025-04-30 08:34:24,561 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-30 08:34:25,870 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-04-30 08:34:25,873 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-04-30 08:34:25,889 - INFO - Raw data saved to raw_data.csv
+2025-04-30 08:34:26,640 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-04-30 08:34:26,640 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-04-30 08:34:37,005 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-04-30 08:34:37,015 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-04-30 08:34:37,025 - INFO - Raw data saved to raw_data.csv
+2025-04-30 08:34:37,172 - INFO - Missing images: 0
+2025-04-30 08:34:37,176 - INFO - Breed classes: ['Dalmatian', 'Golden Retriever', 'Pug', 'Rottweiler']
+2025-04-30 08:34:37,200 - INFO - Dataset splits saved to dataset_splits.csv
+2025-04-30 08:34:37,206 - INFO - Dataset prepared:
+Training set: 1400 samples
+Validation set: 300 samples
+Test set: 300 samples
+2025-04-30 08:34:38,063 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-04-30 08:34:38,064 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
+2025-04-30 08:34:55,448 - INFO - Data augmentation configured and saved to augmentation_config.txt
+2025-04-30 08:34:56,829 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
+2025-05-05 14:20:15,738 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-05-05 14:20:16,971 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-05-05 14:20:16,971 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-05-05 14:20:16,987 - INFO - Raw data saved to raw_data.csv
+2025-05-05 14:20:17,754 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-05-05 14:20:17,754 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-05-05 14:20:25,260 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-05-05 14:20:25,260 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-05-05 14:20:25,274 - INFO - Raw data saved to raw_data.csv
+2025-05-05 14:20:25,290 - INFO - Missing images: 2000
+2025-05-05 14:20:25,300 - ERROR - DataFrame is empty after preprocessing
+2025-05-05 14:20:53,678 - ERROR - Failed to execute D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py: Command '['c:\\Users\\manam\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\university\\sem 8\\Data\\Final Project\\Project_P2_810100207_810100247_810102480\\scripts\\preprocess.py']' returned non-zero exit status 1.
+2025-05-05 14:26:29,749 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-05-05 14:26:30,816 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-05-05 14:26:30,816 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-05-05 14:26:30,832 - INFO - Raw data saved to raw_data.csv
+2025-05-05 14:26:31,515 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\load_data.py
+2025-05-05 14:26:31,515 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-05-05 14:26:33,727 - INFO - Successfully loaded metadata from database/DogImages.db
+2025-05-05 14:26:33,727 - INFO - Data loaded from database/DogImages.db with 2000 records
+2025-05-05 14:26:33,739 - INFO - Raw data saved to raw_data.csv
+2025-05-05 14:26:33,778 - INFO - Missing images: 0
+2025-05-05 14:26:33,782 - INFO - Breed classes: ['Dalmatian', 'Golden Retriever', 'Pug', 'Rottweiler']
+2025-05-05 14:26:33,799 - INFO - Dataset splits saved to dataset_splits.csv
+2025-05-05 14:26:33,808 - INFO - Dataset prepared:
+Training set: 1400 samples
+Validation set: 300 samples
+Test set: 300 samples
+2025-05-05 14:26:34,613 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\preprocess.py
+2025-05-05 14:26:34,615 - INFO - Running D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
+2025-05-05 14:26:49,845 - INFO - Data augmentation configured and saved to augmentation_config.txt
+2025-05-05 14:26:50,982 - INFO - Successfully executed D:\university\sem 8\Data\Final Project\Project_P2_810100207_810100247_810102480\scripts\feature_engineering.py
